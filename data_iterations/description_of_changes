@@ -37,16 +37,42 @@ At the end of the Column Removal session, the dates were finally tackled which p
 
 10:51 a.m. breaking for storms. about halfway through the date columns. 
 
+11:48 a.m. back and now thinking about the ramifications of the choices I've made in the changes with values including "century." I chose to change the 
+values throughout to the range of years in creation date. In the choice, I make the deleted presence of the other two known in the creation date while 
+simultaneously eliminating the specificity present in the categories including "centuries" by choosing to go with the numerical. I am reminded of 
+Peter Galison's dissection of clocks (time) and maps (space) as i have been consolidating all of the creation dates as numbers without the presence
+of words. I am now realizing in hindsight that could be a practice of more precise time periods? It still feels clear through the year ranges that are 
+uniform. 
 
+12:09 p.m. slight deviations from the above point would be if the creation date earliest and latest are listed differently than the century ranges. is
+that more or less specific? what does that mean? 
+
+12:16 p.m. "c." entries were entered on that, diverging from the throughline of all of year groups. For the purposes of what we are looking at, I went 
+with the purposeful choices of those who touched this dataset before. While narrowing it down, it is also giving the indication of the archivist/data 
+manager prior to us. 
+
+12:29 p.m. Collar, Row 11828, had years listed opposite to the original century label. 18th century, but 1800s on the other two columns. would someone
+have found that without the focus on the numbers and structure of time? who knows! I decided to go with the years listed with the other two columns, which
+remained the most accurate estimation of these pieces as I combed through making things unifroms across the board. Later found "Cuffs", Row 12751, being
+credited as late 19th century, yet the years say something different——1725-1775, mid sixteenth century. Later AGAIN, Alexander Entering Babylon in Triumph,
+Row 9989, as late 17th century with 1099-1198 listed instead. 
+
+The only ones listed with century that I left were prints of Chinese, Japanese, and Pakistani art with two print dates. I was not sure what to do with it!
+
+That's it for what I have in me for OpenRefine at 1:09 p.m. on 4/7. passing on the file to MF. 
+
+- TMK 
+
+##
 
 Column Removals Report
 - Removal of "artist_id"
 - Removal of "web_url"
 - Removal of "image_url"
 - Removal of "id"
-- [To-Do] Removal of "credit_line"
-- [To-Do] Removal of "provenance_text"
 - Removal of "full_name"
+- [To-Do] Removal of "credit_line" (?)
+- [To-Do] Removal of "provenance_text" (?)
 - [To-Do] Removal of "creation_date_earliest"
 - [To-Do] Removal of "creation_date_latest"
 
@@ -54,11 +80,16 @@ Column Removals Report
 Open Refine Cleaning Report
 - Cleaning "century" labels to corresponding number years (19th, 18th, 20th, etc)
   - Recorded Issues in the open "Cleaning Suggestions"
+  - All except listed example above changed to year ranges as of 1:09 p.m.
 - Adding years where a range exists in "creation_date_earliest" and "creation_date_latest"
   - Making judegment calls on those missing a direct date in the latest tab if the time period is precisely worded (i.e. late 19th century)
+  - Ranges between labeled as "century" were relabeled to possible ranges of years of creation to remain uniform
+  
+# Moving Forward
 - [To Do] Simplifying Nationality (eliminating repeating in the same value)
-- [To-Do] That Scary Medium Column
 - [To-Do] Classification Tab Simplification
+- [To-Do] That Scary Medium Column (collaborate)
+
 
   </body>
 </html>

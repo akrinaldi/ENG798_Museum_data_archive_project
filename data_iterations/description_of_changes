@@ -11,7 +11,7 @@
   
 #The following chronicles changes to an original dataset of the Carnegie Museum of Art, found at the following link: https://github.com/cmoa/collection
     
-##First Data Cleaning Session (TMK) 45623
+##First Data Cleaning Session (TMK) 4623
 
 Interesting note about the creation date that I am noting before making a dedicated choice. This is, in fact, the last thing I will do before
 handing it off to Michael. For instance, all of the 'late/early century' styles have listed years in the other two columns. this is the main 
@@ -27,15 +27,25 @@ TMK removed the information about the source of how the piece arrived at the mus
 can pull from the original file of the CMOA and merge data in this project later, this first iteration is more concerned with the physical and 
 digital locations of pieces as they exist according to our understanding of the functions of museums and archives. 
 
-At the end of the Column Removal session, the dates were finally tackled which prompted the opening of OpenRefine. That began the real hard work ahead 
+At the end of the Column Removal session, the dates were finally tackled which prompted the opening of OpenRefine. That began the real hard work ahead.
+
+##Second Data Cleaning Session (TMK) 4723
+
+8:36 a.m. Early start right back where I left off: the pesky date columns
+
+10:23 a.m. I'm still on the date columns
+
+10:51 a.m. breaking for storms. about halfway through the date columns. 
+
+
 
 Column Removals Report
 - Removal of "artist_id"
 - Removal of "web_url"
 - Removal of "image_url"
 - Removal of "id"
-- Removal of "credit_line"
-- Removal of "provenance_text"
+- [To-Do] Removal of "credit_line"
+- [To-Do] Removal of "provenance_text"
 - Removal of "full_name"
 - [To-Do] Removal of "creation_date_earliest"
 - [To-Do] Removal of "creation_date_latest"
@@ -43,11 +53,12 @@ Column Removals Report
 
 Open Refine Cleaning Report
 - Cleaning "century" labels to corresponding number years (19th, 18th, 20th, etc)
-  - Caught a Snafu to be resolved in Issues - "Things Added Later" 
-  - Coming back to "late 19th-20th century"
+  - Recorded Issues in the open "Cleaning Suggestions"
 - Adding years where a range exists in "creation_date_earliest" and "creation_date_latest"
-
-
+  - Making judegment calls on those missing a direct date in the latest tab if the time period is precisely worded (i.e. late 19th century)
+- [To Do] Simplifying Nationality (eliminating repeating in the same value)
+- [To-Do] That Scary Medium Column
+- [To-Do] Classification Tab Simplification
 
   </body>
 </html>

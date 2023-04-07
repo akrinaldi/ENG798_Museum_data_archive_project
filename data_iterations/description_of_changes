@@ -43,6 +43,8 @@ Column Removals Report
 
 Open Refine Cleaning Report
 - Cleaning "century" labels to corresponding number years (19th, 18th, 20th, etc)
+  - Caught a Snafu to be resolved in Issues - "Things Added Later" 
+  - Coming back to "late 19th-20th century"
 - Adding years where a range exists in "creation_date_earliest" and "creation_date_latest"
 
 

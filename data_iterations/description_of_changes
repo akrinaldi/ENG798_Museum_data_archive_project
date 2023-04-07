@@ -93,3 +93,24 @@ Open Refine Cleaning Report
 
   </body>
 </html>
+
+
+Open Refine Cleaning 04/07/23
+
+(3:16PM) Consolidating "nationality" descriptions by eliminating repeating terms in the same value
+
+NOTE: What to do with mixed nationality descriptions like "British|Scottish"? I think we should keep these, 
+but what about mixed nationality descriptions with repeating terms like "British|British|Scottish? Perhaps we can consolidate to "British|Scottish"
+
+NOTE: nationality descriptions like "British|British|Scottish" correspond with the names in the "cited_names" column, but
+do we need the "cited_names" column at all? Do we intend to talk about any specific artists by name? If not, consider deleting column 
+
+(4:07PM) down to 313 choices total in "nationality" column
+
+(5:22PM) Still working on "nationality" column, removed "creation_date_earliest" and "creation_date_latest" columns
+
+(7:17PM) Finished consolidating "nationality" descriptions by eliminating repeating terms in same value.
+I left the mixed nationality descriptions alone for now. 
+
+(7:25PM) Taking a short break to pet my dog because he is smol and is good boi
+

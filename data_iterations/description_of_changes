@@ -1,3 +1,51 @@
-All changes/iterations of the original Carnegie Museum of Art data
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    All changes/iterations of the original Carnegie Museum of Art data
+    <title>NOD: Changes to CMOA Dataset</title>
+  </head>
 
-Was literally about to make this, so this is great. 
+  <body>
+  
+#The following chronicles changes to an original dataset of the Carnegie Museum of Art, found at the following link: https://github.com/cmoa/collection
+    
+##First Data Cleaning Session (TMK) 45623
+
+Interesting note about the creation date that I am noting before making a dedicated choice. This is, in fact, the last thing I will do before
+handing it off to Michael. For instance, all of the 'late/early century' styles have listed years in the other two columns. this is the main 
+item on my to-do list before handing it off. aimming to get as much done tonight as i can. A storm is rolling through... 
+
+MF suggested in a document looking at birth place, but what about death year? just a thought... 
+
+Fun note while exploring: the two name tabs witch the first and last name. However, in Japanese, the name stays the same between the
+cited name and the full name. Otherwise, the below decision was arrived to in order to do a comb of the data to make it more manageable in 
+future iterations of this project. 
+
+TMK removed the information about the source of how the piece arrived at the museum for the purposes of this project. While future iterations 
+can pull from the original file of the CMOA and merge data in this project later, this first iteration is more concerned with the physical and 
+digital locations of pieces as they exist according to our understanding of the functions of museums and archives. 
+
+At the end of the Column Removal session, the dates were finally tackled which prompted the opening of OpenRefine. That began the real hard work ahead 
+
+Column Removals Report
+- Removal of "artist_id"
+- Removal of "web_url"
+- Removal of "image_url"
+- Removal of "id"
+- Removal of "credit_line"
+- Removal of "provenance_text"
+- Removal of "full_name"
+- [To-Do] Removal of "creation_date_earliest"
+- [To-Do] Removal of "creation_date_latest"
+
+
+Open Refine Cleaning Report
+- Cleaning "century" labels to corresponding number years (19th, 18th, 20th, etc)
+- Adding years where a range exists in "creation_date_earliest" and "creation_date_latest"
+
+
+
+  </body>
+</html>

@@ -91,10 +91,6 @@ Open Refine Cleaning Report
 - [To-Do] That Scary Medium Column (collaborate)
 
 
-  </body>
-</html>
-
-
 Open Refine Cleaning 04/07/23
 
 (3:16PM) Consolidating "nationality" descriptions by eliminating repeating terms in the same value
@@ -131,3 +127,71 @@ Consolidating various combinations of "graphite, ink, and watercolor on paper."
 Data Cleaning 04/12/23
 
 (8:30PM) Continuing to clean medium column
+
+Data Cleaning 04/19/23
+
+(12:26PM) MK finishing the creation date cleaning
+
+- If there is a range of the 'project time' and then a specific date, I went with the range to catch the full time the piece took to make. 
+- If two dates were listed (ie. conceived vs. cast or a production date later than the first year listed), I went with the date of creation for the 
+  piece itself. (The cast date or a later production, since that seems more specific to the piece) 
+- Remaining BCE pieces with ranges have "to" inbetween the range in order to make the years easier to read
+
+(12:59) Row 13067: Had two ranges, most likely from when the wall was built and then when the fragment of the wall (the piece itself) was created.
+        The range has changed to reflect the full time from wall to fragment
+
+(1:19PM) It feels weird to clean up the words specifying periods of Dynasties in China and Japan (and the Roman period) 
+
+(1:24) Going for months and cleaning those to just be a number for the year (December was finished with the above, starting at January)
+        Row 2656: Plate from the Obama inaugural address (Not on View?) 
+(1:28) February (I'm noticing that most of the ones I'm going through with specific months and/or days are Not on View) 
+(1:31) Oh god, "ma" shows not just March or May but also 'manufactured.' Taking the same as above, I'm going for the creation of the piece itself
+        It's all furniture. Furniture all the way down on the 'manufactured'
+(1:40) June and July 
+       At this point, I began to realize that a lot of this stuff is coming from the Teenie Harris archive. this explains the 'not on view' for a majority 
+       of this cleaning today
+(1:51) August
+(1:54) September
+    A revision came up, so I am going with the revision date for the same reason as manufactured and printed decisions above
+(1:56) October
+(1:59) November
+      AND ANOTHER REVELATION IN "no earlier than [YEAR]" Every time I think I'm about to climb out, it pulls me right back in. Year listed has been chosen
+      Leaving 'no date' as a possibility especially since most of these are also on 'not on view'
+      After conferring with group, I've changed these to "NULL"
+(2:13) December
+(2:14) Now cleaning things that came up throughout, such as: "revision" "block" "reprint" "drawn" "project" "before" "retouched"
+      "Before" made me revisit older versions of the data to get the range more accurate (paused to do the rest) 
+      Rework and Retouch are going based on the last date listed (view as completed) 
+      "Dynasty" has been cleaned up 
+(2:26) "c." is gonna kill me, I guess I have to look up some Open Refine tutorials again
+(2:29) Going back to finish "Before" by comparing to other datasets (Specifically, 4_6, a version I saved before the above cleaning)
+(2:44) Back to "c." after cleaning "ca." and "cast" 
+      https://kb.refinepro.com/2011/07/remove-specific-character-in-column.html THIS WEBSITE SAVED SO MUCH TIME. 
+(2:50) UGH Thought I was done, but putting 'n' showed another 259 cells with still more text 
+      "Print" "Designed" and "patent" were the main culprits in this last search; again, most recent date was chosen to be specific to the object
+      Weird, most of these reprints are ALSO not on view
+      "Late Qing" were collectively changed to 1800-1911; the dataset puts them all at 1777, which is only halfway through the Qing Period (ended in 1912)
+      the above tutorial has made some of this so much easier ("printed posthumously" was complicated, so a mass transform helped"
+(3:03) my mind really said "lemme type each letter" and so I began the final combing by starting at "a" which brought 80 cells
+       It was here I realized I forgot "April" above 
+(3:09) Moving onto "b" and onward, will report once a big amount comes through
+(3:13) "s" found me with the [YEARS]s with 371 cells, so I'm saving this until I get through the rest of the alphabet
+(3:15) tackling the last stuff: the above "s" with 371 cells
+
+
+(3:21) MK Signing off on the "Creation Year" column
+
+
+      
+      
+      
+    
+
+
+
+
+
+  
+
+
+

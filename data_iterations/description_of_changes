@@ -1,13 +1,4 @@
-<!DOCTYPE html>
-<html lang="en-US">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width" />
-    All changes/iterations of the original Carnegie Museum of Art data
-    <title>NOD: Changes to CMOA Dataset</title>
-  </head>
 
-  <body>
   
 #The following chronicles changes to an original dataset of the Carnegie Museum of Art, found at the following link: https://github.com/cmoa/collection
     
@@ -91,7 +82,7 @@ Open Refine Cleaning Report
 - [To-Do] That Scary Medium Column (collaborate)
 
 
-Open Refine Cleaning 04/07/23
+##Open Refine Cleaning 04/07/23
 
 (3:16PM) Consolidating "nationality" descriptions by eliminating repeating terms in the same value
 
@@ -124,11 +115,11 @@ Consolidating various combinations of "graphite, ink, and watercolor on paper."
 
 (9:09PM) "medium" column down to 4836 choices. Phew!
 
-Data Cleaning 04/12/23
+##Data Cleaning 04/12/23
 
 (8:30PM) Continuing to clean medium column
 
-Data Cleaning 04/19/23
+##Data Cleaning 04/19/23
 
 (12:26PM) MK finishing the creation date cleaning
 
@@ -177,21 +168,8 @@ Data Cleaning 04/19/23
 (3:09) Moving onto "b" and onward, will report once a big amount comes through
 (3:13) "s" found me with the [YEARS]s with 371 cells, so I'm saving this until I get through the rest of the alphabet
 (3:15) tackling the last stuff: the above "s" with 371 cells
-
-
 (3:21) MK Signing off on the "Creation Year" column
 
+I'm out
 
-      
-      
-      
-    
-
-
-
-
-
-  
-
-
-
+##
